@@ -37,7 +37,7 @@ function handleFileLoad(evt, comp) {
 function openAds(){
 		if(globalThis.notRedirect){globalThis.notRedirect=false;return};
     window.open(clickTag);
-
+}
 function handleComplete(evt,comp) {
 	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
 	var lib=comp.getLibrary();
